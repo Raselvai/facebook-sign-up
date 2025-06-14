@@ -1,0 +1,245 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: SFProDisplay-Regular;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+@font-face {
+    font-family: SFProDisplay-Regular;
+    src: url('../webfonts/SFProDisplay-Regular.eot');
+    src: url('../webfonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/SFProDisplay-Regular.woff2') format('woff2'),
+        url('../webfonts/SFProDisplay-Regular.woff') format('woff'),
+        url('../webfonts/SFProDisplay-Regular.ttf') format('truetype'),
+        url('../webfonts/SFProDisplay-Regular.svg#SFProDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: SFProDisplay-Medium;
+    src: url('../webfonts/SFProDisplay-Medium.eot');
+    src: url('../webfonts/SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/SFProDisplay-Medium.woff2') format('woff2'),
+        url('../webfonts/SFProDisplay-Medium.woff') format('woff'),
+        url('../webfonts/SFProDisplay-Medium.ttf') format('truetype'),
+        url('../webfonts/SFProDisplay-Medium.svg#SFProDisplay-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: SFProDisplay-Bold;
+    src: url('../webfonts/SFProDisplay-Bold.eot');
+    src: url('../webfonts/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/SFProDisplay-Bold.woff2') format('woff2'),
+        url('../webfonts/SFProDisplay-Bold.woff') format('woff'),
+        url('../webfonts/SFProDisplay-Bold.ttf') format('truetype'),
+        url('../webfonts/SFProDisplay-Bold.svg#SFProDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.language_wrapper {
+	padding: 30px 0 60px 0;
+	background: #ffffff;
+}
+
+.language_wrapper p a {
+	font-size: 14px;
+	color: #737373;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.language_wrapper p a:hover {
+	text-decoration: underline;
+}
+
+.language_wrapper .language_wrap {
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #dddfe2;
+	margin-bottom: 10px;
+}
+
+.language_wrapper span {
+	display: block;
+	font-size: 12px;
+	margin-top: 30px;
+	color: #737373;
+}
+
+.container {
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+
+.signup_wrapper {
+	padding: 30px 0 40px 0;
+	background: #F0F2F5;
+}
+
+.signup_wrapper .logo img {
+	width: 302px;
+}
+
+.signup_wrapper form {
+	max-width: 432px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.signup_wrapper .signup_wrap {
+	background: #ffffff;
+	border-radius: 8px;
+}
+
+.signup_wrapper .signup_wrap .signup_head {
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #a7a7a7;
+}
+
+.signup_wrapper .signup_wrap .signup_head h2 {
+    font-size: 25px;
+}
+
+.signup_wrapper .signup_wrap .signup_head p {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #898989;
+}
+
+.signup_wrapper .signup_wrap input,
+.signup_wrapper .signup_wrap select {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #b1b1b1;
+    padding: 0 0 0 15px;
+}
+
+.signup_wrapper .signup_wrap .width1 {
+    max-width: 185px;
+}
+
+.custom_flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.signup_wrapper .signup_wrap .signup_main {
+    padding: 15px 20px 20px 20px;
+}
+
+.signup_wrapper .signup_wrap p {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #616161;
+}
+
+.signup_wrapper .signup_wrap p span {
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    background: #4b4b4b;
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.width2 {
+    max-width: 115px;
+}
+
+.signup_wrapper .signup_wrap select {
+	margin-top: 15px;
+}
+
+.signup_wrapper .radio_btn {
+    max-width: 116px !important;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #b1b1b1;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.signup_wrapper .signup_wrap .radio_btn input {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.mt_15 {
+	margin-top: 15px;
+}
+
+.signup_wrapper .signup_wrap .para01 {
+    font-size: 12px;
+}
+
+.signup_wrapper .signup_wrap .para01 a {
+    color: #24427c;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.signup_wrapper .signup_wrap .para01 a:hover {
+	text-decoration: underline;
+}
+
+.signup_wrapper .signup_wrap button {
+	padding: 0 50px;
+	border-radius: 10px;
+	height: 40px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border: transparent;
+	background: #00a400;
+	color: #ffffff;
+	font-family: SFProDisplay-Bold;
+	font-size: 19px;
+	transition: 0.3s all ease-in-out;
+	cursor: pointer;
+}
+
+.signup_wrapper .signup_wrap button:hover {
+	background: #0d870d;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.signup_wrapper .signup_wrap .log_in {
+    color: #279cf2;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.signup_wrapper .signup_wrap .log_in:hover {
+	text-decoration: underline;
+}
